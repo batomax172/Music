@@ -1,0 +1,25 @@
+{
+  "name": "void-music-bot",
+  "version": "1.0.0",
+  "description": "Void Music Bot - بوت موسيقى متكامل لسيرفر Void",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "author": "Void",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "distube": "^4.2.2",
+    "@distube/youtube": "^4.2.0",
+    "@distube/soundcloud": "^2.0.2",
+    "@distube/spotify": "^2.0.3",
+    "@distube/yt-dlp": "^2.0.5",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0"
+  }
+}
